@@ -43,7 +43,6 @@
 *   **Agent Tools** (`day_4a_agent_tools.ipynb`)
     *   Custom Function Tools
     *   Agent Tools (using agents as tools)
-    *   Built-in Code Executor
     *   Tool types overview
 *   **Agent Tool Patterns and Best Practices** (`day_4b_agent_tools_best_practices.ipynb`)
     *   Model Context Protocol (MCP) integration
