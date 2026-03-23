@@ -1,0 +1,10 @@
+---
+title: "Development Environment"
+format: html
+---
+
+First, setup your environment [Setup of VS Code and `venv`](https://halgoz.quarto.pub/pythonia/content/00b_setup.html).
+
+You may want to check out how to install and remove packages through VS Code without the command line, here: [Python environments in VS Code](https://code.visualstudio.com/docs/python/environments).
+
+We also want to open Jupyter Notebooks in VS Code. Checkout the overview and the following tutorials in: [Data Science in VS Code](https://code.visualstudio.com/docs/datascience/overview).

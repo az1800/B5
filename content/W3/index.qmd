@@ -1,7 +1,5 @@
 ---
-title: "Index"
 format: html
-# page-layout: full
 mermaid-format: svg
 toc-depth: 2
 ---
@@ -17,8 +15,8 @@ toc-depth: 2
 1. Recognize foundations and related fields
 1. Recognize the three main topics of ML
 
-**Materials:** [[Slides]](./modules/M1/lessons/01_slides_Intro_ML.qmd)
-**Assignments:** [Penguins EDA](./modules/M1/exercises/01_eda_penguins_ex.ipynb)
+**Materials:** [[Slides]](M1/lessons/01_slides_Intro_ML.qmd)
+**Assignments:** [Penguins EDA](M1/exercises/01_eda_penguins_ex.ipynb)
 
 ### M1-2: Linear Models
 
@@ -35,8 +33,8 @@ toc-depth: 2
 1. Train a classifier (`LogisticRegression`) model
 1. Given a `DecisionBoundaryDisplay` distinguish between a classifier's `predict` and `predict_proba` methods
 
-**Materials:** [[Slides]](./modules/M1/lessons/02_slides_linear_models.qmd), [[Lab]](./modules/M1/lessons/03_lab_linear_models.ipynb)
-**Assignments:** [Linear Regression 1](./modules/M1/exercises/02_linear_regression_ex.ipynb), [Linear Regression 2](./modules/M1/exercises/03_linear_regression_ex.ipynb)
+**Materials:** [[Slides]](M1/lessons/02_slides_linear_models.qmd), [[Lab]](M1/lessons/03_lab_linear_models.ipynb)
+**Assignments:** [Linear Regression 1](M1/exercises/02_linear_regression_ex.ipynb), [Linear Regression 2](M1/exercises/03_linear_regression_ex.ipynb)
 
 ### M1-3: Non-linear Patterns
 
@@ -46,7 +44,7 @@ toc-depth: 2
 1. Fit non-linear patterns using linear models with `SplineTransformer`.
 1. Recognize Decision Trees and Support Vector Machines as non-linear models.
 
-**Materials:** [[Slides]](./modules/M1/lessons/04_slides_non_linear_patterns.qmd), [[Lab]](./modules/M1/lessons/05_lab_non_linear_patterns.ipynb)
+**Materials:** [[Slides]](M1/lessons/04_slides_non_linear_patterns.qmd), [[Lab]](M1/lessons/05_lab_non_linear_patterns.ipynb)
 
 ## Module 2: Predictive Modeling Pipelines
 
@@ -63,8 +61,8 @@ toc-depth: 2
 
 **Materials**:
 
-1. [Slides 1](./modules/M2/lessons/01_slides_data_quality_profiling.qmd)
-2. [Slides 2](./modules/M2/lessons/02_slides_sensitive_data.qmd)
+1. [Slides 1](M2/lessons/01_slides_data_quality_profiling.qmd)
+2. [Slides 2](M2/lessons/02_slides_sensitive_data.qmd)
 
 ### M2-2: Pipelines
 
@@ -86,19 +84,19 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-1. [[Slides]](./modules/M2/lessons/03_slides_pipeline.qmd)
-     - [[Lab 1.A: Handle Missing Values]](./modules/M2/lessons/lab_impute.ipynb)
-     - [[Lab 1.B: Scaling: Numerical Features]](./modules/M2/lessons/lab_scale.ipynb)
-     - [[Lab 1.C: Encoding: Cateogrical Features]](./modules/M2/lessons/lab_encode.ipynb)
-2. [[Lab 2]](./modules/M2/lessons/04_lab_pipeline.ipynb)
+1. [[Slides]](M2/lessons/03_slides_pipeline.qmd)
+     - [[Lab 1.A: Handle Missing Values]](M2/lessons/lab_impute.ipynb)
+     - [[Lab 1.B: Scaling: Numerical Features]](M2/lessons/lab_scale.ipynb)
+     - [[Lab 1.C: Encoding: Cateogrical Features]](M2/lessons/lab_encode.ipynb)
+2. [[Lab 2]](M2/lessons/04_lab_pipeline.ipynb)
 
 **Assignments**:
 
-1. [[Effect of rescaling on a k-neighbors models]](./modules/M2/exercises/01_scaling_knn.ipynb)
-2. [[Categorical feature encoding]](./modules/M2/exercises/02_categorical_encoding_ex.ipynb)
-3. [[Mult-variable Regression 1]](./modules/M2/exercises/03_multi-variable_regression_ex_1.ipynb)
-4. [[Mult-variable Regression 2]](./modules/M2/exercises/04_multi-variable_regression_ex_2.ipynb)
-5. [[High-cardinality categorical features]](./modules/M2/exercises/05_high-cardinality.ipynb)
+1. [[Effect of rescaling on a k-neighbors models]](M2/exercises/01_scaling_knn.ipynb)
+2. [[Categorical feature encoding]](M2/exercises/02_categorical_encoding_ex.ipynb)
+3. [[Mult-variable Regression 1]](M2/exercises/03_multi-variable_regression_ex_1.ipynb)
+4. [[Mult-variable Regression 2]](M2/exercises/04_multi-variable_regression_ex_2.ipynb)
+5. [[High-cardinality categorical features]](M2/exercises/05_high-cardinality.ipynb)
 
 ## Module 3: Model Selection and Evaluation
 
@@ -115,8 +113,8 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-1. [[Slides]](./modules/M3/lessons/01_slides_evaluation.qmd)
-2. [[Lab]](./modules/M3/lessons/02_lab_generalization.ipynb)
+1. [[Slides]](M3/lessons/01_slides_evaluation.qmd)
+2. [[Lab]](M3/lessons/02_lab_generalization.ipynb)
 
 ### M3-2: Hyper-parameter Tuning
 
@@ -130,9 +128,9 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-1. [[Lab 1]](./modules/M3/lessons/03_hyper-parameter_tuning.ipynb)
-3. [[Lab 2]](./modules/M3/lessons/04_sample_grouping.ipynb)
-4. [[Text]](./modules/M3/texts/text_controlling_randomness.qmd)
+1. [[Lab 1]](M3/lessons/03_hyper-parameter_tuning.ipynb)
+3. [[Lab 2]](M3/lessons/04_sample_grouping.ipynb)
+4. [[Text]](M3/texts/text_controlling_randomness.qmd)
 
 ## Module 4: Regression and Classification Metrics
 
@@ -145,8 +143,8 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Slides]](./modules/M4/lessons/01_slides_regression_metrics.qmd)
-- [[Lab]](./modules/M4/lessons/02_lab_regression_metrics.ipynb)
+- [[Slides]](M4/lessons/01_slides_regression_metrics.qmd)
+- [[Lab]](M4/lessons/02_lab_regression_metrics.ipynb)
 
 ### M4-2: Classification Metrics
 
@@ -157,9 +155,9 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Slides]](./modules/M4/lessons/03_slides_classification_metrics.qmd)
-- [[Lab]](./modules/M4/lessons/04_lab_classification_metrics.ipynb)
-- [[Widget: Classifier Threshold]](./modules/M4/lessons/widget_threshold.qmd)
+- [[Slides]](M4/lessons/03_slides_classification_metrics.qmd)
+- [[Lab]](M4/lessons/04_lab_classification_metrics.ipynb)
+- [[Widget: Classifier Threshold]](M4/lessons/widget_threshold.qmd)
 
 ### M4-3: Classifier Threshold Tuning
 
@@ -171,8 +169,8 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Lab 1]](./modules/M4/lessons/06_lab_classifier_threshold_tuning.ipynb)
-- [[Lab 2]](./modules/M4/lessons/07_lab_probability_calibration.ipynb)
+- [[Lab 1]](M4/lessons/06_lab_classifier_threshold_tuning.ipynb)
+- [[Lab 2]](M4/lessons/07_lab_probability_calibration.ipynb)
 
 ## Module 5: Decision Trees and Ensembles
 
@@ -185,8 +183,8 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Slides]](./modules/M5/lessons/01_slides_trees.qmd)
-- [[Lab]](./modules/M5/lessons/02_lab_decision_trees.ipynb)
+- [[Slides]](M5/lessons/01_slides_trees.qmd)
+- [[Lab]](M5/lessons/02_lab_decision_trees.ipynb)
 
 
 ### M5-2: Ensemble Methods
@@ -199,9 +197,9 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Slides 1]](./modules/M5/lessons/03_slides_bagging.qmd)
-- [[Slides 2]](./modules/M5/lessons/04_slides_boosting.qmd)
-- [[Lab]](./modules/M5/lessons/05_lab_ensembles.ipynb)
+- [[Slides 1]](M5/lessons/03_slides_bagging.qmd)
+- [[Slides 2]](M5/lessons/04_slides_boosting.qmd)
+- [[Lab]](M5/lessons/05_lab_ensembles.ipynb)
 
 ### M5-3: Explainable AI
 
@@ -214,7 +212,7 @@ Goal: Build a Pipeline to handle preprocessing of both categorical and numerical
 
 **Materials:**
 
-- [[Lab]](./modules/M5/lessons/06_lab_shap.ipynb)
+- [[Lab]](M5/lessons/06_lab_shap.ipynb)
 
 
 ## Project

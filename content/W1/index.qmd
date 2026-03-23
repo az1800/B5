@@ -1,0 +1,92 @@
+---
+format: "html"
+---
+
+## Lessons
+
+1. [Bootcamp Introduction](./lessons/01_intro.qmd)
+2. [IDE Setup](./lessons/02_devenv.qmd)
+3. [Course book: **المقدمة البايثونية للبرمجة**](https://halgoz.quarto.pub/pythonia/)  (Chapters 1 to 10 + Exercises)
+
+## Learning outcomes
+
+In this course we learn to:
+
+- **Basic Syntax and Semantics**
+    1. Give literal values, tell apart an `int` from a `float`
+    2. Given arithmetic expressions, tell what's the type of each value, and the type of the result
+    3. Recognize the exponential operator as being `**` in Python
+    4. Recognize that `True` and `False` are capitalized in Python
+    5. Recognize the null value in Python as being the literal `None`
+    6. Recognize that Python is indifferent when it comes to defining a string with a single or double quotes
+    7. Recognize the correct way to join a string with a number
+    8. Write a print statement using f-string with some formatting for, say 3 decimals
+    9. Write a multi-line statement using parenthesis `()`
+    10. Write a multi-line statement using the backward slash `\`
+- **Control-flow**
+    1. Write basic conditional statements with: `if-elif-else`
+    2. Write nested conditional statements
+    3. Recognize that Python uses `and` instead of `&&` as well as `or` instead of `||`
+    4. Distinguish between the single `|`, the bit-wise operator and the `or` boolean operator, as well as the `&`, the bit-wise from the `and`, the boolean operator
+    3. Predict the output of complex boolean logic statements: with multiple `and`s and `or`s
+    4. Write a definite loop with `for` statement to achieve some defined goal
+    5. Write a loop with a skip (`continue`) statement to achieve some defined goal
+    6. Write an indefinite loop with `while True:` statement and specify the `break` condition to achieve some defined goal
+    7. Predict the output of a small, non-trivial program by tracing it step-by-step without running it
+    8. Given a small code snippet with a loop, tell whether the program will finish or run forever
+    9. Write a conditional assignment using the `expression if condition else expression` statement
+    10. Given a small code snippet with `try-catch` predict the output by tracing the program's execution step-by-step without running it
+- **Functions**
+    1. Define a function with default parameter values
+    2. Define functions with type hints in the inputs and the outputs
+    3. Given a code snippet, identify the scope in which the variables are accessible
+    4. Given a value, tell which type is it
+    5. Given a variable, trigger the IDE's auto-complete to show it's attributes and methods
+    6. Given any function or class, find the official docs for it (secondary sources like geeksforgeeks.com are not acceptable)
+    7. Recognize what Python does when positional arguments are not specified in the call
+    8. Given a small snippet of code with a recursive function, predict the output by tracing the program without actually running it
+    9. Given a defined function with `**kwargs`, tell what purpose does it serve
+    10. Recognize the `from x import y` Python syntax
+- **Collection types**
+    1. Distinguish between all of `list`s, `tuple`s, `set`s, and `dict`ionaries
+    2. Given a `list`, use indexing to extract a specified item
+    3. Given a `list`, use negative index to extract a specified item
+    3. Given a `list`, use slicing to extract a specified sequence of items
+    4. Given a `list`, use negative indexing and slicing to extract a specific item
+    5. Given a `list`, replace the value at a specific index
+    6. Given a `list`, find index by value and then replace it with a given value
+    5. Given a `list`, use `start:stop:step` to get every other item
+    4. Given a nested `list`, extract a specified item
+    5. Given a `dict`, extract a specified value
+    6. Given a nested `dict`, extract a specified value
+    7. Given a nested `list` of `dict` which has a `list` within, extracted a specified value from within the inner-most `list`
+    8. State 2 use cases for `list`
+    9. State 2 use cases for `dict`
+    10. State a use case for `range()`
+    11. State a use case for `enumerate()`
+    12. State a use case for `zip()`
+    13. Use loops on iterables and iterators correctly
+    14. Given a list comprehension, predict the output
+    15. Given a dict comprehension, with a condition, predict the output
+- **Errors**
+    1. Distinguish between `TypeError` and `ValueError`
+    2. Recognize syntax errors related to indentation
+    3. Given a stack trace, you are able to find the outer-most cause and the inner-most cause of the error
+    4. Given a code snippet showing an off-by-one error, caused by the upper limit being excluded, you are able to spot that
+- **Object-oriented Programming**
+    1. Given a class, tell what is the purpose of `__init__` method
+    2. Tell which dunder method maps to the `+` operator
+    3. Distinguish between the term "function" and the term "object"
+    4. Explain the function of the `self` argument in Python's methods
+    5. Recognize that class instances are individual entities separate from the class itself
+    6. Given a code snippet with class inheritance, predict the output
+- **Functional Programming**
+    1. Recognize what a `lambda` function is in Python
+    2. Recognize that Python functions can accept functions and return functions
+    3. Given a code snippet, using a decorator, predict the output
+- **Environment and Tools**
+    1. Distinguish between kernel and interpreter to fix issues like IDE squiggly lines or module not found, even when it is thought to be installed it.
+    2. Distinguish between package install name and import name
+    3. Manage environment packages (add, remove) and find package from PyPI
+    4. Ensure the Python running right now corresponds to the project's environment
+    5. Install and run tools like `ruff` and `pytest` to the `--dev` dependency group

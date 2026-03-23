@@ -4,6 +4,8 @@ project:
   preview: 
     port: 4700
   output-dir: _site
+  render: 
+    - W1/
 
 website:
   navbar:
@@ -42,8 +44,6 @@ format:
     progress: true
     history: false
     scrollable: true
-    rtl: true
-    dir: rtl
     width: 1600
     height: 900
     center: false
